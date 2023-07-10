@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Lato;
+}
+.main-header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main-head{
+    color: #272727;
+font-size: 80px;
+padding-bottom: 20px;
+}
+.left-part{
+    gap: 30px;
+    padding-left: 30vh;
+}
+.right-part{
+    padding-right: 20vh;
+}
+.main-para{
+    color: rgba(39, 39, 39, 0.60);
+
+font-size: 18px;
+padding-bottom: 30px;
+}
+.main-btn{
+    border-radius: 8px;
+background: #E55473;
+border: 0;
+padding: 20px 43px;
+color: white;
+}
+.main-image{
+    padding-top: 20px;
+}
