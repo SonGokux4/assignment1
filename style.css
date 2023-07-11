@@ -45,11 +45,7 @@ color: white;
 /* Body styles */
 
 
-/* section 1 */
-.feature{
-    margin-left: 240px;
-    margin-right: 240px;
-}
+/* section feature */
 
 .part1{
     text-align: center;
@@ -59,38 +55,48 @@ color: white;
 font-size: 40px;
 padding-top: 178px;
 padding-bottom: 24px;
+}
+.part2{
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.box1{
+  background: rgba(221, 13, 51, 0.15);
+  width: 464px;
+height: 538px;
+  position: relative;
+  border-radius: 300px 300px 0 0;
+  box-shadow: 10px 10px 15px black;
 
 }
-.icon{
-    background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 200px 200px 0 0;
-    padding-top: 40px;
-    width: 400px;
-    height: 538px;
-  }
-  .icon2{
-    background-color:rgba(5, 151, 160, 0.15);
-  }
-  .icon3{
-    background-color: rgba(71, 125, 17, 0.15);
-  }
-  .im-head{
-    align-items: center;
-  }
-  .container{
-    display: flex;
-    gap: 100px;
-    padding-bottom: 195px;
-  }
-  .head{
-    text-decoration: underline;
-    font-size: 14px;
-  
-  }
-  .boxes{
-    
-    text-align: center;
-  }
+.box2{
+  background: rgba(5, 151, 160, 0.15);
+
+}
+.box3{
+  background: rgba(71, 125, 17, 0.15);
+
+}
+
+.pink{
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+}
+.container{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.head{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
 
 
   /* support section */
@@ -103,22 +109,29 @@ padding-bottom: 24px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 50px;
+    gap: 70px;
     padding-top: 40px;
     padding-bottom: 40px;
+    box-shadow: 10px 2px 8px black;
+    width: 1440px;
+height: 320px;
   }
   .about{
     color: rgba(39, 39, 39, 0.80);
 text-align: center;
 font-size: 24px;
+font-weight: 600;
   }
   .support{
-    margin-left: 240px;
-    margin-right: 240px;
     padding-bottom: 128px;
   }
   .man,.flower,.sup{
     padding: 10px 10px;
+  }
+  .m{
+    width: 88px;
+height: 88px;
+padding-bottom: 30px;
   }
 
   /* sale section */
@@ -128,7 +141,7 @@ font-size: 24px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 300px;
   }
   .info-head{
     color: #272727;
@@ -144,7 +157,7 @@ color:  rgba(39, 39, 39, 0.60);
     background-color: rgba(229, 84, 115, 0.05);
   }
   .info{
-    padding: 230px 0px 162px 200px;
+    padding: 230px 100px 162px 0;
   }
   .off{
     color: #E55473;
@@ -157,7 +170,8 @@ color:  rgba(39, 39, 39, 0.60);
     display: flex;
    
     gap:24px;
-    margin-left: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .up{
     text-align: center;
@@ -168,14 +182,16 @@ color:  rgba(39, 39, 39, 0.60);
   .down-img{
     width: 342px;
 height: 396px;
+border-radius: 300px 0;
+box-shadow: 10px 10px 10px black;
+
   }
 
   /* Section 3 */
 
 .subscribe{
   margin-top: 128px;
-  margin-left: 240px;
-  margin-right: 240px;
+  
   text-align: center;
   background-image: url('/Rectangle\ 9.png');
   background-repeat: no-repeat;
@@ -201,14 +217,28 @@ height: 64px;
 
 .pay-img{
   width:100px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  
+    box-shadow: 10px 10px 10px black;
+    border-radius: 0px 25px 25px 0px;
+}
+.mod{
+  padding-top: 20px;
 }
 .payment{
   text-align: center;
   padding-top: 138px;
+ 
 }
+
+
 .method{
   color: #E55473;
+}
+
+.feature,.support,.instagram,.payment{
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
 
