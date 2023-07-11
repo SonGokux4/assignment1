@@ -196,6 +196,22 @@ padding-left: 15px;
 height: 64px;
 }
 
+
+/* Payment */
+
+.pay-img{
+  width:100px;
+  padding-bottom: 10px;
+}
+.payment{
+  text-align: center;
+  padding-top: 138px;
+}
+.method{
+  color: #E55473;
+}
+
+
 /* footer */
 
 .footer{
