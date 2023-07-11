@@ -1,9 +1,10 @@
+/* .......................Universal CSS................................*/
 *{
     margin:0px;
     padding:0px;
     font-family: Lato;
 }
-/*  header section styles */
+/*  ....................header section styles....................... */
 .main-header{
     background: rgba(229, 84, 115, 0.10);
 }
@@ -42,10 +43,10 @@ color: white;
     padding-top: 20px;
 }
 
-/* Body styles */
+/* .....................Body styles........................... */
 
 
-/* section feature */
+/* >>>>>Section feature */
 
 .part1{
     text-align: center;
@@ -99,7 +100,7 @@ height: 538px;
 
 
 
-  /* support section */
+  /* >>>>>support section */
 
 
   .support-container{
@@ -134,7 +135,7 @@ height: 88px;
 padding-bottom: 30px;
   }
 
-  /* sale section */
+  /* >>>>>>>sale section */
   
   .sale-container{
     display: flex;
@@ -163,7 +164,7 @@ color:  rgba(39, 39, 39, 0.60);
     color: #E55473;
   }
 
-  /* sectio 3 insta */
+  /* >>>>>>>>section instagram */
 
 
   .down{
@@ -187,7 +188,7 @@ box-shadow: 10px 10px 10px black;
 
   }
 
-  /* Section 3 */
+  /* >>>>>>>Subscribe Section */
 
 .subscribe{
   margin-top: 128px;
@@ -213,7 +214,7 @@ height: 64px;
 }
 
 
-/* Payment */
+/* >>>>>>>>>>Payment */
 
 .pay-img{
   width:100px;
@@ -242,7 +243,7 @@ height: 64px;
 }
 
 
-/* footer */
+/* ........................Footer Section............................. */
 
 .footer{
   margin-top:128px;
@@ -273,3 +274,6 @@ padding-bottom: 32px;
 font-size: 16px;
 padding-bottom:128px ;
 }
+
+
+/* .....................END OF CSS.................................. */
