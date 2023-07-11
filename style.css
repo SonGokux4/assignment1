@@ -120,5 +120,36 @@ font-size: 24px;
   .man,.flower,.sup{
     padding: 10px 10px;
   }
+
+  /* sale section */
   
+  .sale-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+  }
+  .info-head{
+    color: #272727;
+font-size: 40px;
+padding-bottom: 24px;
+  }
+  .info-para{
+padding-bottom: 32px;
+font-size: 18px;
+  }
+  .sale{
+    background-color: rgba(229, 84, 115, 0.05);
+  }
+  .info{
+    padding: 230px 0px 162px 200px;
+  }
+  .off{
+    color: #E55473;
+  }
+
+  /* sectio 3 insta */
+
+
   
