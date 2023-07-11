@@ -138,6 +138,7 @@ padding-bottom: 24px;
   .info-para{
 padding-bottom: 32px;
 font-size: 18px;
+color:  rgba(39, 39, 39, 0.60);
   }
   .sale{
     background-color: rgba(229, 84, 115, 0.05);
@@ -152,4 +153,77 @@ font-size: 18px;
   /* sectio 3 insta */
 
 
-  
+  .down{
+    display: flex;
+   
+    gap:24px;
+    margin-left: 240px;
+  }
+  .up{
+    text-align: center;
+  }
+  .instagram{
+    padding-top: 128px;
+  }
+  .down-img{
+    width: 342px;
+height: 396px;
+  }
+
+  /* Section 3 */
+
+.subscribe{
+  margin-top: 128px;
+  margin-left: 240px;
+  margin-right: 240px;
+  text-align: center;
+  background-image: url('/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 20px;
+}
+.sub-in{
+  width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+border: 0;
+padding-left: 15px;
+}
+.sub-button{
+  margin-left: 10px;
+  width: 150px;
+height: 64px;
+}
+
+/* footer */
+
+.footer{
+  margin-top:128px;
+  text-align: center;
+  background: #111010;
+}
+.flower-red{
+  color:#E55473;
+}
+.f-head{
+  padding-top: 128px;
+  padding-bottom: 24px;
+  color: #FFFFFF;
+font-size: 48px;
+
+font-weight: 800;
+
+}
+.f-info{
+  color: rgba(255, 255, 255, 0.90);
+
+
+font-size: 18px;
+padding-bottom: 32px;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+font-size: 16px;
+padding-bottom:128px ;
+}
