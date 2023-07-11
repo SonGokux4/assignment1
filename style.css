@@ -3,6 +3,7 @@
     padding:0px;
     font-family: Lato;
 }
+/*  header section styles */
 .main-header{
     background: rgba(229, 84, 115, 0.10);
 }
@@ -40,3 +41,84 @@ color: white;
 .main-image{
     padding-top: 20px;
 }
+
+/* Body styles */
+
+
+/* section 1 */
+.feature{
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.part1{
+    text-align: center;
+}
+.sec-head{
+    color: #272727;
+font-size: 40px;
+padding-top: 178px;
+padding-bottom: 24px;
+
+}
+.icon{
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 200px 200px 0 0;
+    padding-top: 40px;
+    width: 400px;
+    height: 538px;
+  }
+  .icon2{
+    background-color:rgba(5, 151, 160, 0.15);
+  }
+  .icon3{
+    background-color: rgba(71, 125, 17, 0.15);
+  }
+  .im-head{
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    gap: 100px;
+    padding-bottom: 195px;
+  }
+  .head{
+    text-decoration: underline;
+    font-size: 14px;
+  
+  }
+  .boxes{
+    
+    text-align: center;
+  }
+
+
+  /* support section */
+
+
+  .support-container{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 24px;
+  }
+  .support{
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-bottom: 128px;
+  }
+  .man,.flower,.sup{
+    padding: 10px 10px;
+  }
+  
+  
